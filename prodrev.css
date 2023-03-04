@@ -1,6 +1,6 @@
 body{
     background: hsl(30, 38%, 92%);
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .container{
     display: flex;
