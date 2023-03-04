@@ -98,7 +98,7 @@ a:hover{
     .container{
         flex-direction: column;
         margin-top: 3.5rem;
-        margin-left: 0.2rem;
+        margin-left: 0.1rem;
     }
     .image{
         display: none;
