@@ -112,7 +112,7 @@ a:hover{
     .content{
         margin-left: 0.5rem;
         padding: 1% 5%;
-        width: 19.5rem;
+        width: 19.15rem;
         height: 24rem;
         margin-top: -0.2rem;
         border-top-right-radius: 0%;
@@ -120,7 +120,7 @@ a:hover{
         border-bottom-right-radius: 0.5rem;
     }
     button{
-        padding: 6% 30%;
+        padding: 6% 31%;
         margin-top: -0.5rem;
     }
     h1{
