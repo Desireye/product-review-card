@@ -1,6 +1,5 @@
 body{
     background: hsl(30, 38%, 92%);
-    overflow: hidden;
 }
 .container{
     display: flex;
@@ -9,7 +8,7 @@ body{
 }
 .content{
     background: hsl(0, 0%, 100%);
-    height: 27rem;
+    height: 27.05rem;
     width: 15rem;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
@@ -78,6 +77,10 @@ p{
 h5{
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
+    margin-top: 6rem;
+    margin-left: 43rem;
+    position: relative;
+    bottom: 1%;
 }
 a{
     text-decoration: overline;
@@ -92,28 +95,24 @@ a:hover{
 
 /*responsiveness*/
 @media screen and (max-width: 375px) {
-    body{
-        overflow-x: hidden;
-        overflow-y: scroll;
-    }
     .container{
         flex-direction: column;
-        margin-top: 4rem;
+        margin-top: 3.5rem;
     }
     .image{
         display: none;
     }
     .image-2{
        display: inline;
-       width: 20.6rem;
+       width: 21.4rem;
       margin-left: 0.5rem;
       border-top-right-radius: 0.5rem;
       border-top-left-radius: 0.5rem;
     }
     .content{
         margin-left: 0.5rem;
-        padding: 1% 6%;
-        width: 18rem;
+        padding: 1% 5%;
+        width: 19.5rem;
         height: 24rem;
         margin-top: -0.2rem;
         border-top-right-radius: 0%;
@@ -128,6 +127,7 @@ a:hover{
         margin-top: -1rem;
     }
     h5{
-        margin-left: 15%;
+        margin-top: 1.5rem;
+        margin-left: 14.5rem;
     }
 }
