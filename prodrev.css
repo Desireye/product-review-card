@@ -78,8 +78,7 @@ p{
 }
 footer{
     font-family: 'Fraunces', serif;
-    color: hsl(158, 36%, 37%);
-    margin-top: 6rem;   
+    color: hsl(158, 36%, 37%);  
     text-align: center;
 }
 a{
@@ -95,6 +94,10 @@ a:hover{
 
 /*responsiveness*/
 @media screen and (max-width: 375px) {
+    body{
+    display: grid;
+    place-items: center;
+   }
     main{
         flex-direction: column;
     }
