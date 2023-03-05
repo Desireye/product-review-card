@@ -1,8 +1,6 @@
 body{
     background: hsl(30, 38%, 92%);
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
 }
 main{
     display: flex;
@@ -81,9 +79,8 @@ p{
 footer{
     font-family: 'Fraunces', serif;
     color: hsl(158, 36%, 37%);
-    margin-top: 6rem;
-    position: absolute;
-    bottom: 1%;
+    margin-top: 6rem;   
+    text-align: center;
 }
 a{
     text-decoration: overline;
