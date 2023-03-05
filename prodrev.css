@@ -104,14 +104,12 @@ a:hover{
     .image-2{
        display: inline;
        width: 20.7rem;
-      margin-left: 0.5rem;
       border-top-right-radius: 0.5rem;
       border-top-left-radius: 0.5rem;
     }
     .content{
-        margin-left: 0.5rem;
         padding: 1% 5%;
-        width: 18.45rem;
+        width: 18.46rem;
         height: 24rem;
         margin-top: -0.2rem;
         border-top-right-radius: 0%;
